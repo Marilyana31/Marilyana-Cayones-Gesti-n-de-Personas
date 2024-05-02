@@ -25,7 +25,7 @@ def delete_producto(producto):
     producto.delete()
     return True
 #___________________________________________________________________________________________________________
-#Esta primera parte es para Proveedores
+#Esta  parte es para Proveedores
 
 def get_all_proveedores():
     return Proveedor.objects.all()  
